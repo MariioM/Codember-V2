@@ -1,5 +1,5 @@
 # CodemberV2
-<img src="https://imgur.com/a/jcrtwJR">
+<img src="https://i.imgur.com/oRvmy8M.png)">
 Reto creado por <a href="https://github.com/midudev">midudev</a>💻
 <h2>Como Contribuir</h2>
 <p>Para mantener un orden y que sea más legible para todos, seguiremos los siguientes pasos:</p><br>
