@@ -1,0 +1,64 @@
+using System;
+
+namespace Challenge_03
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            const string listaClaves = "8-10 r: ozrcdfnug\r\n9-10 q: hvsazxrigf\r\n1-9 j: bbqonxjt\r\n6-8 e: pzqcywelwiogwt\r\n4-7 t: vvxirpoid\r\n10-10 g: gifzgmpab\r\n7-8 w: lfpveulq\r\n8-10 f: xlcgglmllky\r\n7-9 w: siridrjzxqpngwr\r\n2-3 n: fkrmnniuxeboq\r\n8-10 g: zlbevnqppg\r\n1-6 a: yqvwieerrklo\r\n1-9 d: vxannmz\r\n8-10 u: hhjyvkckfxo\r\n7-10 i: nljzuyfzb\r\n9-10 c: imgjjpzdbmrw\r\n9-9 v: hysjskvlajhxpd\r\n10-10 w: oojxss\r\n1-10 s: yysatgxngpxwoem\r\n9-9 i: uhwcmhcdby\r\n3-6 x: tygtgmzqgaoa\r\n6-9 q: ivrvhtzzer\r\n6-10 g: fwgegzkdv\r\n6-7 l: wcjluyprnxu\r\n9-10 a: fyefdpsdzaebc\r\n7-8 y: kwxuffrrneojaco\r\n6-10 p: dwgackmgbsus\r\n8-8 o: dtiyaqmqndsp\r\n2-8 i: gmafxjksdtxfjt\r\n2-4 l: xwjuygyfnqgsz\r\n1-1 b: kodslr\r\n9-9 g: pdnxrrfxhjhi\r\n4-9 t: ohmczh\r\n4-5 d: qeavdrtphhyqrvb\r\n1-3 i: qnuel\r\n7-10 l: wbwdnzvqku\r\n10-10 n: jjwhjrrysbpg\r\n9-10 b: kovvlhsvdqfg\r\n1-1 g: xolpkt\r\n5-8 g: qubspcaytneg\r\n2-8 k: fmptvvd\r\n10-10 x: hzlaflrshptiy\r\n4-10 i: dywatt\r\n6-6 x: eflrp\r\n9-10 d: bgamidqewtbus\r\n3-10 n: llysdv\r\n2-3 k: bvcbvo\r\n8-9 a: iyljc\r\n10-10 f: ndyfogk\r\n1-9 z: nylbijvgysm\r\n7-8 i: bjqgqt\r\n5-7 u: tdtcwitrr\r\n8-9 x: spwuw\r\n8-10 y: rpzcs\r\n2-7 i: gcysmom\r\n1-9 n: jymsnungqygcq\r\n4-4 a: kcrohkxqg\r\n10-10 t: mvebpf\r\n4-7 r: vfhunjqziv\r\n10-10 k: mtmdjbv\r\n5-6 c: sowigndyyai\r\n7-7 b: cifknttgrpn\r\n3-4 q: zrubvrlegv\r\n8-10 r: ivczqqrois\r\n8-10 z: ykqosdbk\r\n9-9 h: urjpxaz\r\n1-8 w: pxhfxubuyvo\r\n4-6 a: tumdapgxenvr\r\n2-7 f: yaeyvbkrdras\r\n5-8 s: paqxymwsbah\r\n8-8 x: xtxpnhgbofdrs\r\n7-10 r: iqfpszsx\r\n8-10 c: cdfsfnyiqwtcssy\r\n5-10 z: suvqelmvkmvcy\r\n5-7 b: hiodfdwq\r\n4-5 u: zqghtqmw\r\n8-10 h: liqwd\r\n1-7 o: qhrlwdoltv\r\n3-7 w: tcqcq\r\n6-6 o: bfjaddqxqgssq\r\n4-7 j: gkbzxsffzrnckzj\r\n4-6 d: ogvdasrmribaqps\r\n9-10 m: jrgezkxytjuf\r\n2-9 g: htyjxmzulz\r\n3-5 b: gxgvzkkx\r\n6-8 g: iwgomwhwpjspj\r\n2-7 b: usdmm\r\n4-9 z: bowpthcs\r\n5-8 v: ahrljnttfukcrw\r\n1-7 d: rnwrji\r\n8-9 q: zwtylxkv\r\n5-9 b: ivxeagzx\r\n7-9 o: wjtncvtwwlpv\r\n4-4 m: xbpafqjzwdepp\r\n7-8 x: znlfxvtbraikxjf\r\n5-9 j: hybkaj\r\n5-6 g: xjducbyhdrst\r\n2-3 e: rupyvlo\r\n1-1 y: yrruzwhbfkk\r\n5-10 c: dxkhzipe\r\n7-10 z: outpx\r\n6-10 t: nlygjceachhhqij\r\n5-10 f: fpuvb\r\n10-10 c: laftqdzlcao\r\n4-7 s: xotywhvh\r\n1-8 w: qapwcw\r\n5-10 g: zoiosnanbuugsbr\r\n3-4 k: zuotdwegpfaut\r\n1-3 y: kjjkhsr\r\n8-8 n: vwipg\r\n5-7 i: ofowebiqsuec\r\n4-9 a: ixyewqvinq\r\n1-3 v: cmqrlibqkpe\r\n2-10 l: gtwnznkpm\r\n6-7 y: eqhasppna\r\n2-5 s: nhwfgrtsuoz\r\n2-6 z: eigodwfjbwmsf\r\n7-10 b: kvlif\r\n1-3 i: moiiqwwbh\r\n3-3 f: wvgyabdhgbjgoj\r\n5-8 x: lyvgrb\r\n5-5 x: afwocoxvzujg\r\n6-10 o: egmuvuyxc\r\n5-5 o: qomkkznp\r\n6-10 q: isbdoqwkuozz\r\n4-4 w: gcvtasxufjbgh\r\n10-10 y: mimjvbwedh\r\n4-10 x: kmfwtqmg\r\n5-7 v: fhqjmstxuq\r\n3-6 l: ggzcxkrzc\r\n1-5 x: ktnfvz\r\n7-7 d: uzthjbbxb\r\n8-8 k: rpcuickgpcqp\r\n9-9 i: jhmxls\r\n6-6 j: pdvdgvodybqoty\r\n7-7 e: zsmlnjjppwenmfg\r\n9-10 d: drtnbb\r\n2-9 t: dtdjusghxfjnk\r\n5-9 u: njmijoctlludoa\r\n4-9 n: rrkellcjp\r\n2-8 s: eebsu\r\n6-6 y: yjiptrs\r\n2-9 c: ubggdune\r\n4-8 n: ddcljhnptqrl\r\n5-9 j: qnunzylw\r\n1-7 f: ycqtdtcafiulm\r\n9-9 g: gntyxnlb\r\n1-5 i: mrlqt\r\n9-10 q: gnwgseil\r\n10-10 y: zojixlcsjd\r\n1-4 w: iabesorarfowunh\r\n9-10 i: glsptiqjt\r\n7-9 p: vuxjj\r\n10-10 d: edzbjzrrtnn\r\n7-7 m: iqxrctdn\r\n8-8 a: yudznhiy\r\n4-6 e: rtqkztjjkyt\r\n6-7 h: tchcuyunzxngh\r\n5-10 q: pwtosnyorwqtt\r\n8-10 k: arjuubxwfhirj\r\n4-7 l: ydsanrbcxxnws\r\n9-9 p: upvxqygmz\r\n2-6 i: zduzras\r\n4-9 o: danygeslyzelv\r\n8-8 w: kkisegumx\r\n3-8 t: wyjobisjh\r\n8-9 d: etdze\r\n2-4 q: hztgwbtku\r\n10-10 y: qigddpj\r\n3-10 u: aekdbznktxhhctu\r\n2-3 i: oacbzkc\r\n1-8 h: azyhyxnj\r\n8-10 g: dkwkplqdfhry\r\n6-7 h: nkfrol\r\n4-7 o: htcuracoi\r\n4-7 c: qiapikaiji\r\n1-3 d: wxrvykfewrcr\r\n2-7 d: aiwyytzuuq\r\n7-10 l: mayhendroaj\r\n10-10 w: cztbyaaoubvtja\r\n8-9 a: ghvjtd\r\n10-10 q: rlsqnhyoqsqd\r\n7-9 a: xnfkibaldshxws\r\n4-4 s: ounylctxyd\r\n5-6 n: kzhmoagidyle\r\n6-10 s: mswyvytow\r\n6-9 u: suwlhjcnkpgrtv\r\n4-4 r: btwxrkimhnffwr\r\n4-5 u: ernqjnscqvrjzbd\r\n2-2 r: yhkdxjkuy\r\n1-3 p: pfmduv\r\n10-10 k: cmknadgfxgiiw\r\n2-2 o: acqvlqcnqtsem\r\n4-7 c: dbvvlsydhbepk\r\n1-5 t: akysdiarek\r\n1-4 q: nwovcsvdpuma\r\n9-10 b: xlbmykuusdann\r\n2-9 y: yuvyayectdxj\r\n2-9 t: qvdnfcxdoqwxjw\r\n6-9 t: icxpei\r\n8-10 n: euynwapumiic\r\n3-9 v: ilupkmmhzbjvhu\r\n1-5 z: ymorcaxogkiim\r\n3-10 d: tpzcheysueiqas\r\n7-10 b: weauuhosrmgzvv\r\n2-7 c: asyue\r\n10-10 s: gufkolsevebvpru\r\n9-9 t: ghgxzpollnee\r\n8-10 p: rwmajwbootmj\r\n1-7 r: vojubpncicmoyxq\r\n3-8 g: zwtclkhux\r\n6-8 r: ztlkfxoujd\r\n10-10 t: mkxiyfjbqnlii\r\n2-5 i: oxvalyfmpsahgf\r\n9-9 j: xwbpwgzo\r\n7-8 o: tizkcoxwpqyryf\r\n1-3 w: qkmisjvfatywi\r\n5-8 r: jozangypzlrf\r\n8-8 c: zoeowdk\r\n1-2 w: wdfflckcjnceb\r\n10-10 b: cyhdd\r\n5-7 d: amhepcrktiuvvk\r\n1-9 p: xdkctmvtoa\r\n6-6 p: hsydtlxjftab\r\n3-9 x: vmfstlen\r\n2-5 j: qefmk\r\n10-10 w: firbfo\r\n9-9 t: vtvorreuq\r\n3-9 q: vbnvf\r\n5-7 d: rzfdnmwlehnjxt\r\n9-9 f: esloelgkzgihp\r\n8-8 r: sbnhygrguo\r\n6-9 d: llybjbajpibr\r\n2-4 q: itikoiexmtxd\r\n6-6 n: uxblhtl\r\n9-9 y: obwyforcrabfuuy\r\n8-10 x: tekkudropxxt\r\n1-1 r: pzwws\r\n9-9 h: udbzxiifn\r\n4-8 r: guiclzojblg\r\n2-8 s: zuhmhvlktvh\r\n4-7 g: mjmflepbhrlj\r\n10-10 n: ucdnanjjsftty\r\n8-10 v: wvfqhpm\r\n2-8 t: wzchieehwfgohcq\r\n4-10 n: lsxfrgz\r\n9-9 u: paotl\r\n7-10 s: mcylon\r\n3-10 f: kzqjrcljohyjat\r\n8-9 e: yabwyivmlanv\r\n9-9 a: kjwqzfohq\r\n2-7 x: lqfxyzzzcivl\r\n6-10 v: lmjypukcyulsst\r\n2-10 z: ggelhwocnk\r\n5-7 t: xenffooe\r\n4-6 g: ixkls\r\n10-10 n: ofyfipxn\r\n6-6 s: fnnufwp\r\n7-7 r: expdcfdauczler\r\n9-9 g: uowurzo\r\n4-6 v: iivuf\r\n6-9 k: hnshun\r\n7-8 h: zkjlyxqza\r\n1-7 e: jupqyycbsfl\r\n6-6 k: xstrunykiycl\r\n1-10 b: rttuvbrairceca\r\n7-7 p: xgpoomivc\r\n3-5 i: suaoe\r\n1-6 t: xiowndnccojbdxl\r\n10-10 d: ctvlplseppjnjf\r\n6-9 f: irsdx\r\n2-6 a: fpmnrmubfrh\r\n4-8 r: atybqpoeswbjdr\r\n9-10 k: fhnbe\r\n3-5 q: vodpuhs\r\n3-6 h: lbmaiw\r\n4-4 s: joicgouzefuzff\r\n5-6 o: nkritzr\r\n5-7 t: dczzuusprvhjwel\r\n8-10 z: ngwapbjhghi\r\n2-2 u: omwqjh\r\n5-6 f: uhmzjatqg\r\n5-10 p: edjqbociloc\r\n8-9 u: zrataihprppked\r\n4-6 z: aqwfrmvhtlpq\r\n3-9 l: wplbshoy\r\n1-9 e: wminrrpgfr\r\n5-6 k: wdvqngtmmtbzxjk\r\n2-7 c: ptharwgn\r\n4-6 s: sytmluweomy\r\n8-9 n: tteqngrfyfxhxj\r\n8-8 u: vadfiv\r\n1-9 u: qzrzg\r\n5-5 j: dhrvz\r\n8-9 p: swtedii\r\n7-9 z: vigiuogz\r\n4-4 h: mrzself\r\n3-6 k: suxmhlbu\r\n1-4 i: ywfufvc\r\n8-9 j: tycjdb\r\n3-4 e: zjnzeuxzanrbe\r\n6-6 b: zsibwipjzyglzc\r\n1-2 e: dhorfrnqu\r\n2-4 t: dusjlqayivtqp\r\n4-4 s: ijnemgdildkh\r\n3-6 j: mfswx\r\n10-10 c: izeaxcasxorpapq\r\n3-3 c: uxrumikdtpptqu\r\n2-10 o: kqqukevdapxxij\r\n9-10 q: lwmzwfjxk\r\n9-9 q: gwodurvzho\r\n5-8 r: xhudg\r\n6-7 g: jydiibn\r\n4-4 n: dxjrr\r\n8-8 q: uusvflpccyigs\r\n2-8 b: mfehit\r\n6-6 f: mvjifcvkxujm\r\n9-10 j: rrhjwxntalgd\r\n9-9 s: ycyeesbpnnab\r\n4-8 z: niniu\r\n8-9 s: cxtowkhzftx\r\n5-7 o: iaappteglayzfnf\r\n9-10 i: psmlcr\r\n9-10 g: vpjtomscyjfly\r\n8-10 w: pbkazzbbqh\r\n5-8 h: ucfuqkbtgr\r\n2-8 s: eikmjel\r\n9-9 t: etrchyqtfaf\r\n8-8 b: asqnolcrcixx\r\n8-8 x: kvput\r\n4-9 t: mmnnlxyh\r\n8-8 g: xtikclzwkhbbtt\r\n3-5 v: cpwwjskvxlaydz\r\n10-10 h: wxaxipezp\r\n6-9 o: pctkaig\r\n10-10 x: hljrt\r\n8-8 h: kdmvpmrwb\r\n4-7 v: hqmcasokrblpn\r\n4-8 u: phjtrtzme\r\n1-5 b: sqvalxokxru\r\n8-10 w: epmytpuekvsghf\r\n4-9 h: zyoajhsagyxhjxv\r\n5-7 i: fhvarohjorejh\r\n1-4 q: lkzfhpjzjuu\r\n3-6 x: fjygmzcvv\r\n9-10 n: peaylec\r\n1-6 m: xhtylvol\r\n8-8 i: otsloauykoggx\r\n1-3 d: aqzlmscof\r\n7-10 r: idluoaxvwgml\r\n7-7 r: wixcx\r\n8-9 q: dnvufcbs\r\n3-3 q: yrsix\r\n4-4 n: chusuenbyvzb\r\n1-5 d: klfkkzssfmiytuo\r\n4-7 b: llraeqstpsvkw\r\n4-10 e: ejrmjjgqarrlv\r\n7-9 z: hzvjicgnlmlfbzv\r\n9-10 v: uggnlqlepn\r\n8-9 o: wfrvj\r\n2-2 m: gxtagtxjjr\r\n4-10 b: dyamkdlvpsig\r\n3-3 l: gafcejaaqd\r\n2-6 z: qorxzmietsd\r\n5-8 h: pzuvezzztlqbfg\r\n5-8 b: tamiy\r\n3-10 q: pydyuosinnaowkp\r\n1-5 f: rgsxlgi\r\n1-10 m: dtexfrs\r\n5-6 p: wgcbvyeijz\r\n4-6 m: uarixhtrn\r\n1-9 d: ynhdgpcd\r\n4-10 q: wfqmkogakchbre\r\n4-8 b: gokfk\r\n5-8 m: efjqrseq\r\n7-10 g: pcloef\r\n1-3 k: ltntpcvr\r\n5-6 r: onjyyyean\r\n1-8 d: htdivwdhphb\r\n5-7 r: koqomqryg\r\n4-6 x: phlnfjxk\r\n10-10 h: aofesjqaxgq\r\n9-10 c: qikwma\r\n6-7 x: zieefaazjukv\r\n9-10 n: plhmdmhofuggdu\r\n8-9 x: qckskyoz\r\n1-9 e: ubfjleihbtk\r\n5-7 c: bpjmez\r\n9-10 u: bsjfrnxygeh\r\n3-6 e: djszyjr\r\n10-10 l: atkgyunujvehsl\r\n9-9 y: crbnqpsfku\r\n8-9 p: vwllerkgxnkdc\r\n5-5 t: fdnuitsxu\r\n5-8 u: agcijvi\r\n1-6 g: jytdtomtwu\r\n5-5 p: gyuglpnlqez\r\n10-10 w: zrfarqfevrug\r\n4-6 i: tjmjnnngksk\r\n4-8 x: meroctyegccrvg\r\n7-7 s: uholyuccn\r\n4-7 q: nnvlmakatgegw\r\n4-10 p: zmwrc\r\n4-4 n: amvpkjrqem\r\n2-5 r: wqknpkmsacm\r\n9-9 z: wdkyprmgrizjvs\r\n9-9 d: nxgqvpq\r\n7-8 j: qteqcp\r\n8-10 k: gnmbbgnucbkgh\r\n1-3 m: phkzqy\r\n6-9 j: tbnkkpolmfryvx\r\n4-10 n: jtdrdtrdhbd\r\n7-7 f: ldrma\r\n2-3 c: djfnnjdoyl\r\n9-10 k: ocvoxxo\r\n2-7 g: qsjriarzvvj\r\n3-8 t: jhuvulkuggom\r\n1-3 u: kabcesqnsrwof\r\n3-9 k: lqgrpbcva\r\n1-10 b: ywwkpngsmc\r\n2-9 v: ytrdfzgqvimdq\r\n6-9 g: qtrlxusknb\r\n6-9 x: oauaaxazegfa\r\n7-7 h: idnxrjc\r\n8-9 v: ecxzvxboqdeybm\r\n7-7 u: oiejrdegda\r\n1-8 w: bbprsaizr\r\n5-7 t: hkohqiouhity\r\n10-10 t: plvtvusdlfy\r\n3-7 y: nsglxvchbqtj\r\n9-9 r: mcplogwkkgp\r\n4-5 r: vogmgk\r\n1-1 o: rvdfttcjvjp\r\n10-10 i: bvlfpbedaudydw\r\n2-7 l: yyezoage\r\n1-1 t: vnoffsvgilwed\r\n2-9 q: nuelf\r\n7-7 o: dmanukcgrhnmz\r\n1-7 i: spnykaq\r\n9-10 f: zrbbttpk\r\n9-10 c: wsibsdudywm\r\n2-3 m: anxofhkbnudkzsl\r\n1-5 s: meynkgbxhrmlpov\r\n5-7 p: jmbbiafl\r\n4-5 a: ldoqbdoibxtkwlm\r\n1-7 d: zjbomuwqto\r\n4-10 h: heydkxk\r\n8-9 q: ftxtkezitffc\r\n3-10 t: jszdxfa\r\n8-8 p: swjluowwhypqo\r\n7-8 y: oxgesctzrfauc\r\n7-7 u: qlyavsyral\r\n4-5 o: gbbncuewwj\r\n7-7 g: ctgxrcdtfktmx\r\n4-9 p: gaoyvwoaobtjaw\r\n7-8 b: agkrpstygucmj\r\n7-7 q: srsdxqxshwewx\r\n8-8 f: cmddmfppantb\r\n4-4 q: fnwxty\r\n3-8 b: ujyxfgkiky\r\n1-10 m: etmjjmqymmmql\r\n9-9 u: epmclhulhhefo\r\n3-4 z: cvwwxjd\r\n3-8 b: xyvxfxpnftuixim\r\n3-10 c: npkoiusttjv\r\n8-8 k: ymndpkvzbjdsg\r\n6-9 w: hyjzohfoe\r\n7-7 z: hmgykqscpgnn\r\n3-10 c: xhxbncgofcnk\r\n2-7 m: wbspedadumoqfq\r\n10-10 z: czxiw\r\n1-8 h: mphku\r\n4-8 d: ccixnnxe\r\n7-9 r: hhsszicrttwizk\r\n8-9 i: fxrmyxtynfggmxd\r\n9-9 f: abccn\r\n4-10 y: rcgpazaegcxnc\r\n2-2 q: jncwibzyrqi\r\n7-10 f: dqmirwccscer\r\n7-7 w: ehzfswcd\r\n7-9 x: nsius\r\n9-10 h: doczjpxgpc\r\n8-10 m: epkupgbmyjfpxv\r\n8-8 f: eaagsnfzy\r\n10-10 b: peosgoupjx\r\n3-5 k: ckwqpiaw\r\n3-10 q: ohrthtsmsyavc\r\n2-2 d: wfrorjahsjlk\r\n8-10 d: ljobzldfml\r\n5-5 a: kthyhpiweldzp\r\n7-10 a: bqgkqodsnerjv\r\n10-10 z: ywljccdd\r\n2-7 s: rfwzubzuieotaov\r\n7-9 e: syqvrazzzjm\r\n6-7 s: afcsxrib\r\n4-8 o: cjgmhv\r\n5-9 l: sqivoindk\r\n5-10 c: eyrlqezulasez\r\n10-10 p: spxyowwaxfdlj\r\n4-9 e: wlepyecbd";
+            string[] arrayClaves = listaClaves.Split('\n');
+            string clave;
+            int min = 0;
+            int max = 0;
+            int count;
+            string[] claveArray;
+            string[] politica;
+            char key = ' ';
+            char[] password = {' '};
+            bool correct;
+            string stringPassword;
+            int index;
+            int badIndex = 0;
+            for (index = 0; index < arrayClaves.Length; index++)
+            {
+                clave = arrayClaves[index];
+                claveArray = clave.Split(' ');
+                for (int i = 0; i < claveArray.Length; i++)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            politica = claveArray[i].Split('-');
+                            min = Convert.ToInt32(politica[0]);
+                            max = Convert.ToInt32(politica[1]);
+                            break;
+                        case 1:
+                            key = Convert.ToChar(claveArray[i].Split(':')[0]);
+                            break;
+                        case 2:
+                            password = claveArray[i].ToCharArray();
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                count = 0;
+                foreach (char c in password)
+                {
+                    if (c == key)
+                    {
+                        count++;
+                    }
+                }
+                if (count < min || count > max)
+                {
+                        stringPassword = new string(password);
+                        Console.WriteLine(badIndex + 1 + ". " + stringPassword);
+                        badIndex++;
+                }
+            }
+            Console.ReadKey();
+        }
+    }
+}
